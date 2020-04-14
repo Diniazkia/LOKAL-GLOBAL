@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int x = 70;
+
+int contohfunction2 () {
+	int y = 80;
+	return y;
+	//variable dihancurkan
+	
+}
+
+int	contohfunction3 () {
+	int z = 90;
+	return z;
+	//variable dihancurkan
+}
+
+int main () {
+	 cout << "ini adalah variable global fungsi pertama " << x  << endl;
+	 
+	 cout << "ini adalah variable global fungsi kedua " << contohfunction2 () << endl;
+	 
+	 cout << "ini adalah variable global fungsi ketiga " << contohfunction3 () << endl;
+}
